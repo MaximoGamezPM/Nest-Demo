@@ -6,6 +6,7 @@ import '../../view/person/person_1.dart';
 import '../../view/person/person_12.dart';
 import '../../view/person/person_4.dart';
 import '../../view/person/person_frame.dart';
+import '../../view/person/person_6.dart';
 import '../../view/person/person_8.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
@@ -547,7 +548,11 @@ class _CommunityGroups extends State<CommunityGroups> {
                                                                                   child: Align(
                                                                                     alignment: Alignment(0.00, 0.00),
                                                                                     child: Stack(children: [
-                                                                                      Container(/** This Symbol was not found **/),
+                                                                                      LayoutBuilder(builder: (context, constraints) {
+                                                                                        return Person6(
+                                                                                          constraints,
+                                                                                        );
+                                                                                      }),
                                                                                       LayoutBuilder(builder: (context, constraints) {
                                                                                         return PersonFrame(
                                                                                           constraints,

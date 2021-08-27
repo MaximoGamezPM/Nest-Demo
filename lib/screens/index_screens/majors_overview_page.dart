@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import './home_screen_alt.dart';
 import './community_groups.dart';
 import './learning_overview_alt.dart';
-import '../../view/small_major_card/small_major_card_loved.dart';
-import '../../view/small_major_card/small_major_card_default.dart';
+import '../../view/symbols/small_major_card_loved.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 class MajorsOverviewPage extends StatefulWidget {
@@ -339,12 +338,8 @@ class _MajorsOverviewPage extends State<MajorsOverviewPage> {
                                         flex: 49,
                                         child: Padding(
                                             padding: EdgeInsets.only(),
-                                            child: LayoutBuilder(builder:
-                                                (context, constraints) {
-                                              return SmallMajorCardDefault(
-                                                constraints,
-                                              );
-                                            })),
+                                            child: Container(
+                                                /** This Symbol was not found **/)),
                                       )
                                     ]),
                               ))),
@@ -400,12 +395,8 @@ class _MajorsOverviewPage extends State<MajorsOverviewPage> {
                                         flex: 49,
                                         child: Padding(
                                             padding: EdgeInsets.only(),
-                                            child: LayoutBuilder(builder:
-                                                (context, constraints) {
-                                              return SmallMajorCardDefault(
-                                                constraints,
-                                              );
-                                            })),
+                                            child: Container(
+                                                /** This Symbol was not found **/)),
                                       ),
                                       Spacer(
                                         flex: 4,
@@ -414,12 +405,8 @@ class _MajorsOverviewPage extends State<MajorsOverviewPage> {
                                         flex: 49,
                                         child: Padding(
                                             padding: EdgeInsets.only(),
-                                            child: LayoutBuilder(builder:
-                                                (context, constraints) {
-                                              return SmallMajorCardDefault(
-                                                constraints,
-                                              );
-                                            })),
+                                            child: Container(
+                                                /** This Symbol was not found **/)),
                                       )
                                     ]),
                               ))),
@@ -446,12 +433,8 @@ class _MajorsOverviewPage extends State<MajorsOverviewPage> {
                                         flex: 49,
                                         child: Padding(
                                             padding: EdgeInsets.only(),
-                                            child: LayoutBuilder(builder:
-                                                (context, constraints) {
-                                              return SmallMajorCardDefault(
-                                                constraints,
-                                              );
-                                            })),
+                                            child: Container(
+                                                /** This Symbol was not found **/)),
                                       ),
                                       Spacer(
                                         flex: 4,
